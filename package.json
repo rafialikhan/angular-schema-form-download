@@ -1,0 +1,27 @@
+{
+  "name": "angular-schema-form-download",
+  "version": "0.1.0",
+  "description": "A plugin to display a download button which points to a downloadable file through a path link.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Angular",
+    "Schema",
+    "Forms",
+    "Plugin"
+  ],
+  "author": "Rafi Ali Khan & Vikas Konsam (zool.in)",
+  "license": "MIT",
+  "devDependencies": {
+    "gulp": "^3.5.6",
+    "gulp-angular-templatecache": "^1.2.1",
+    "gulp-concat": "^2.2.0",
+    "gulp-jscs": "^1.1.0",
+    "gulp-minify-html": "^0.1.1",
+    "gulp-uglify": "^0.2.1",
+    "gulp-webserver": "^0.9.1",
+    "streamqueue": "0.0.5"
+  }
+}
