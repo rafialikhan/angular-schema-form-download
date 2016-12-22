@@ -39,8 +39,9 @@ scope.schema = {
 
 scope.form = [
   {
-    "key": "Document",
-    "cssClass" : "btn-warning"
+    key: "Document",
+    type: "download",
+    title: "This is a download button."
   }
 ]
 ```
