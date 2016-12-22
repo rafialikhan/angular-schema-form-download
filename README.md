@@ -31,6 +31,7 @@ scope.schema = {
       "title": "Download Application Form",
       "type": "string",
       "format": "download",
+      "cssClass": "btn-primary",
       "url": "http://zool.in/web/wp-content/uploads/2012/05/001_like.jpg"
     }
   }
@@ -38,7 +39,8 @@ scope.schema = {
 
 scope.form = [
   {
-    "key": "Document"
+    "key": "Document",
+    "cssClass" : "btn-warning"
   }
 ]
 ```
