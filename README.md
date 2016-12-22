@@ -41,7 +41,8 @@ scope.form = [
   {
     key: "Document",
     type: "download",
-    title: "This is a download button."
+    title: "This is a download button.",
+    cssClass: "btn-warning"
   }
 ]
 ```
