@@ -3,7 +3,7 @@ angular.module('schemaForm').config(
         function(schemaFormProvider,  schemaFormDecoratorsProvider, sfPathProvider) {
 
           var download = function(name, schema, options) {
-            if (schema.type === 'string' || schema.format === 'download') {
+            if (schema.type === 'string' && schema.format === 'download') {
               var f = schemaFormProvider.stdFormObj(name, schema, options);
               f.key  = options.path;
               f.type = 'download';
