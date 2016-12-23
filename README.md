@@ -29,7 +29,7 @@ scope.schema = {
   "title": "Application Form",
   "description": "This is the description of the Application form."
   "properties": {
-    "Document": {
+    "DOCUMENT": {
       "title": "Download Application Form",
       "type": "string",
       "format": "download",
@@ -45,7 +45,7 @@ The schema should be able to render the form on its own, but if you want to modi
 ```
 scope.form = [
   {
-    key: "Document",
+    key: "DOCUMENT",
     type: "download",
     title: "This is a download button.",
     cssClass: "btn-warning",
