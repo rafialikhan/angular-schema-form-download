@@ -25,4 +25,4 @@ angular.module('schemaForm').config(
               'directives/decorators/bootstrap/download/angular-schema-form-download.html'
           );
         }
-    ])
+    ]);
