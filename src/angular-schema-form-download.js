@@ -25,3 +25,22 @@ angular.module('schemaForm').config(
           );
         }
     ]);
+
+angular.module('schemaForm').directive('downloadOptions', function() {
+    return {
+      restrict : "A",
+      controller : function($scope, $rootScope) {
+        $scope.notifyClick = function(ele) {
+          $rootScope.$emit('DownloadTriggered', {
+            element : ele
+          })
+        };
+      },
+
+      link : function(scope, ele, attr) {
+        angular.element(ele).click(function() {
+          scope.notifyClick(ele);
+        });
+      }
+    };
+});
